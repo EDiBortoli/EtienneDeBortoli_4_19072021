@@ -31,7 +31,7 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
+    max-width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -328,6 +328,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
+    margin-right: 4px;
     font-size: 16px;
 }
 
@@ -367,9 +368,10 @@ a:hover {
 
 @media (min-width: 768px) {
     .site-navigation {
+        list-style: none;
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 30px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
