@@ -707,6 +707,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 h2 {
@@ -733,6 +735,12 @@ h1 {
 
 h4 {
     color: #333333!important;
+}
+
+blockquote {
+    font-size: 20px;
+    border-left: none;
+    margin: 0px;
 }
 
 .icons {
@@ -850,16 +858,16 @@ h4 {
     }
     .nav-center.navbar .nav {
         max-width: 100%
-    }
+    }   
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -886,7 +894,6 @@ h4 {
         display: block;
         width: 100%;
     }
-    ’
 }
 
 @media (max-width: 767px) {
@@ -987,6 +994,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
     .bloc-tile-4 .container,
