@@ -286,7 +286,7 @@ a:hover {
     padding-left: 0;
 }
 
-.adresse{
+.adresse, footer .row{
     margin-top: 35px;
 }
 
